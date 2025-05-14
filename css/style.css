@@ -132,6 +132,7 @@ footer section p {
     display: flex;
     padding: 1rem;
     justify-content: center;
+    text-align: center;
 }
 
 footer section h4 {
@@ -275,6 +276,26 @@ footer section a {
     .card-description ul li {
         width: 100%;
 
+    }
+
+    .btn-icon i {
+        background-color: #ffffff;
+        flex-wrap: wrap;
+        padding: 10px 35px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-icon div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .btn-icon p {
+        display: flex;
     }
 
 }
