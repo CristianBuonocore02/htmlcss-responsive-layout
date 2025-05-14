@@ -4,19 +4,38 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 480px;
+body {
+    background-color: rgb(239, 239, 239);
 }
+
+header {
+    background-color: white;
+}
+
 
 h1 {
     color: orange;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Nerko One", cursive;
     text-align: center;
-    padding: 1rem 0px;
+    padding: 2px;
+    text-shadow: rgb(61, 52, 52) 0.5px 0.5px 1px;
+    font-size: 45px;
 }
 
-.titile {
-    background-color: aqua;
+@media screen and (min-width: 768px) {
+    h1 {
+        color: orange;
+        font-family: "Nerko One", cursive;
+        text-align: left;
+        padding: 1px;
+        text-shadow: rgb(61, 52, 52) 0.5px 0.5px 1px;
+        font-size: 45px;
+    }
+}
+
+
+/* img {
+    max-width: 100%;
 }
 
 .macro-area {
@@ -28,10 +47,15 @@ h1 {
     font-family: sans-serif;
 }
 
-.section-card {}
 
-iframe {
-    margin: 1rem;
+.container {
+    max-width: 480px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
 }
 
 .card h4 {
@@ -42,4 +66,4 @@ iframe {
     margin: 1rem;
     text-decoration: none;
     list-style: none;
-}
+} */
