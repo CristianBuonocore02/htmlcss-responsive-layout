@@ -100,9 +100,99 @@ img {
     margin-bottom: 10px;
 }
 
+h2 {
+    padding: 10px 0;
+}
+
 hr {
-    width: 50px;
+    width: 60px;
     color: orange;
     border: 1px solid;
     margin: 10px 0;
+}
+
+.img-tiramisù {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.presentation {
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .title-tiramsù span {
+        display: none;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .card-description ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        padding-top: 0;
+        gap: 10px;
+    }
+
+
+    .card h4 {
+        margin: 1rem;
+        padding-left: 1rem;
+    }
+
+    .card ul {
+        margin: 1rem;
+        text-decoration: none;
+        list-style: none;
+        font-size: small;
+    }
+
+    .btn-icon {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .btn-icon p {
+        display: none;
+    }
+
+    .btn-icon i {
+        background-color: #ffffff;
+        padding: 10px 45px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .banner {
+        margin: 10px 0;
+    }
+
+
+    .img-tiramisù {
+        float: inline-start
+    }
+
+    .img-tiramisù img {
+        width: 80%;
+    }
+
+
 }
