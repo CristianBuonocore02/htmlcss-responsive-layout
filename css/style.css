@@ -82,6 +82,10 @@ img {
     font-size: small;
 }
 
+.btn-icon a {
+    text-decoration: none;
+}
+
 .btn-icon {
     display: flex;
     justify-content: space-between;
@@ -296,6 +300,9 @@ footer section a {
 
     .btn-icon p {
         display: flex;
+        font-size: smaller;
     }
+
+
 
 }
